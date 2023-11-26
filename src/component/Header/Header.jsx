@@ -15,7 +15,7 @@ const Header = () => {
             
         </div>
             <ul className={`md:flex bg-orange-300 cursor-pointer   text-gray-950 space-y-3
-           absolute md:static duration-700 p-10 ${open ? "top-16" : "-top-60"}`}>
+           absolute md:static duration-700 p-10 ${open ? "top-16" : "-ml-60"}`}>
                 <li>Home</li>
                 <li>About</li>
                 <li>Contact</li>

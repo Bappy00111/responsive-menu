@@ -1,4 +1,5 @@
 import './App.css'
+import DashBord from './component/DashBord/DashBord'
 import Header from './component/Header/Header'
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Header></Header>
+      {/* <Header></Header> */}
+      <DashBord></DashBord>
     </>
   )
 }
